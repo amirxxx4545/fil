@@ -9,6 +9,12 @@ def s_name():
 
 
 
+
+@app.route('/name<name>')
+def say_name(name):
+    return f"hi my name{name}"
+    
+
 @app.route("/amir")
 def ori_name():
     return " <h1>say_ name _ali_mohammd</h1>"
